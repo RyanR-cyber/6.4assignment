@@ -19,8 +19,8 @@ const games = {
 
 console.log(games.fullName());
 
-const marvel = ["spiderman", "ironman", "hulk", "thor"]; // Object literal with array (incorrect syntax)
-console.log(marvel);
+const hero = ["spiderman", "ironman", "hulk", "thor"]; // Object literal with array (incorrect syntax)
+console.log(hero);
 
 const dc = ["batman", "superman", "wonderwoman", "flash"]; 
 
