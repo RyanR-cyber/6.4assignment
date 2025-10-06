@@ -12,17 +12,17 @@ const games = {
     genreName: 'Adventure',
     platformName: 'Nintendo Switch',
     fullName: function() {
-        return `${this.titleName} + 's on ' + ${this.platformName}`;
+        return `${this.titleName} is on ${this.platformName}`;
     }   
     
 }    ; // Object literal with method
 
 console.log(games.fullName());
 
-const marvel = {"spiderman", "ironman", "hulk", "thor"}; // Object literal with array (incorrect syntax)
+const marvel = ["spiderman", "ironman", "hulk", "thor"]; // Object literal with array (incorrect syntax)
 console.log(marvel);
 
-const dc = {"batman", "superman", "wonderwoman", "flash"}; 
+const dc = ["batman", "superman", "wonderwoman", "flash"]; 
 
 let size = dc.length;
 console.log(size);
